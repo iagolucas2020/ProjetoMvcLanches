@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
+    "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
   },
   "projects": {
-    "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
+    "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "projectUniqueName": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
         "projectName": "LanchesMac",
-        "projectPath": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
-        "packagesPath": "C:\\Users\\iagol\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\LanchesMac\\LanchesMac\\obj\\",
+        "projectPath": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "packagesPath": "C:\\Users\\Trabalho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\iagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Trabalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,21 +44,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.8, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
