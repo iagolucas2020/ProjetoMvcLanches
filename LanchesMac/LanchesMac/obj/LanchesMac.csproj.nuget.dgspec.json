@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
+    "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
+    "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "projectUniqueName": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
         "projectName": "LanchesMac",
-        "projectPath": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
-        "packagesPath": "C:\\Users\\Trabalho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Trabalho\\Desktop\\Sistema Lanches\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\obj\\",
+        "projectPath": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "packagesPath": "C:\\Users\\iagol\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos Geral\\Curso C# .Net - Macoratti\\LanchesMac\\ProjetoMvcLanches\\LanchesMac\\LanchesMac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Trabalho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,6 +72,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
